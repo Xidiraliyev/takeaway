@@ -1,0 +1,279 @@
+.hero {
+    background-image: url(../images/png/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mark-text {
+    color: $primary-blue;
+}
+.hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10rem;
+    padding-bottom: 14rem;
+}
+
+.hero__info h1 {
+    margin-bottom: 2.7rem;
+}
+
+.hero__info .hero__text {
+    margin-bottom: 5.3rem;
+}
+
+.hero__info .hero__btn {
+    margin-bottom: 3rem;
+}
+
+.hero__info img {
+    margin-bottom: 1rem;
+}
+
+// Products
+.products {
+    background-image: url(../images/png/products-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.products__container {
+    display: flex;
+    align-items: center;
+    gap: 12.6rem;
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+}
+
+.products__info {
+    background-image: url(../images/png/products-info-img.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.products__title {
+    margin-bottom: 2.9rem;
+}
+
+.products__text {
+    margin-bottom: 4.7rem;
+}
+
+// Features
+
+.features__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 13.4rem;
+    padding-bottom: 11.9rem;
+}
+
+.features__title {
+    margin-bottom: 6.6rem;
+}
+.features__items {
+    display: flex;
+    gap: 10rem;
+}
+
+.features-item {
+    width: 333px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & img {
+        margin-bottom: 4.8rem;
+    }
+    & h3 {
+        margin-bottom: 1.5rem;
+    }
+    & p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.36px;
+    }
+}
+
+// Menu
+.menu {
+    background-image: url(../images/png/menu-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu__container {
+    padding-top: 15.4rem;
+    padding-bottom: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & h2 {
+        margin-bottom: 2.6rem;
+    }
+
+    & .menu__text {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+}
+
+.menu__btns {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+
+.menu-btn {
+    background: #f5fbfc;
+    padding: 1.6rem 4.6rem;
+    border: 1px solid rgba(97, 114, 131, 0.2);
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222222;
+}
+
+.active-btn {
+    background: #35b8be;
+    color: #fff;
+}
+
+// menu cards
+.menu__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 6.5rem;
+}
+.card {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    width: 580px;
+    background: #ffffff;
+    border: 1px solid rgba(53, 184, 190, 0.15);
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 2.6rem;
+
+    & h3 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.8rem;
+    }
+
+    & h3 span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    & p {
+        margin-bottom: 8px;
+    }
+}
+
+.count-btn {
+    padding: 8px 26px;
+    background: #fafafa;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 27px;
+    margin-right: 8px;
+}
+
+.card-btn {
+    background: $primary-blue;
+    padding: 8px 12px 10px 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #000000;
+}
+
+// Order section
+
+.order__container {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.order__info {
+    background-image: url(../images/png/products-info-img.png);
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+.order__title {
+    margin-bottom: 2.9rem;
+}
+
+.order__text {
+    margin-bottom: 4.7rem;
+}
+
+// Contact section
+
+.contact {
+    background-image: url(../images/png/products-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contact__container {
+    display: flex;
+    align-items: center;
+    gap: 12.6rem;
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+}
+
+.contact__info {
+    background-image: url(../images/png/products-info-img.png);
+    background-position-y: center;
+}
+.contact__title {
+    margin-bottom: 2.9rem;
+}
+
+.contact__text {
+    margin-bottom: 4.7rem;
+}
+
+// Support section
+
+.support__container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 4.4rem 1.5rem;
+    display: flex;
+    gap: 2.2rem;
+}
+
+.support__info {
+    background-image: url(../images/png/support-info-img.png);
+    padding-top: 21.2rem;
+    padding-left: 6rem;
+}
+
+.support__title {
+    font-size: 50px;
+    line-height: 121%;
+    letter-spacing: 1.65px;
+    color: #fff;
+    margin-bottom: 5.2rem;
+}
+
+.support__title span {
+    color: #1b9097;
+}
+
+.support__btn {
+    padding: 19px 35px;
+    background: #ffffff;
+    border-radius: 4px;
+}

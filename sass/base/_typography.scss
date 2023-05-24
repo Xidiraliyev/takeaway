@@ -1,0 +1,23 @@
+html {
+     font-size: 62.5%;
+}
+
+body {
+     font-family: $main-font-family;
+     @include mainTextFont ($main-font-size, 400, $text-color, 1.5, 0);
+}
+
+h1 {
+     @include mainTextFont(60px, 400, #08090A, 100%, 0);
+     letter-spacing: 1.8px;
+}
+
+h2 {
+     @include mainTextFont(50px, 400, $primary-blue, 110%, 0);
+     letter-spacing: 1.65px;
+}
+
+h3 {
+     @include mainTextFont(20px, 400, #08090A, 110%, 0);
+     letter-spacing: 0.66px;
+}
