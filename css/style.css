@@ -424,6 +424,87 @@ h3 {
   color: #35B8BE;
 }
 
+.footer {
+  background-image: url(../images/png/footer-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 9.9rem;
+}
+
+.footer__logo {
+  margin-bottom: 2.5rem;
+}
+
+.footer__subtitle {
+  font-size: 16px;
+  line-height: 169%;
+  letter-spacing: 0.36px;
+}
+
+.footer__links {
+  display: flex;
+  margin-bottom: 7rem;
+}
+
+.footer__list {
+  margin-left: 12.6rem;
+}
+.footer__list:nth-child(3) {
+  margin-left: 6rem;
+}
+
+.list-item {
+  margin-bottom: 2.8rem;
+}
+.list-item h3 {
+  font-size: 13px;
+  line-height: 154%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #08090a;
+}
+.list-item a {
+  font-size: 15px;
+  line-height: 133%;
+}
+
+.footer__bottom {
+  padding-bottom: 3rem;
+}
+
+.footer__bottom div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__line {
+  background: rgba(126, 130, 143, 0.09);
+  height: 1px;
+  width: 100%;
+  margin-bottom: 7rem;
+  border: none;
+}
+
+.socials {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-item {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(126, 130, 143, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
 .header-top {
   padding: 1.4rem 0;
   background: #35B8BE;
@@ -574,6 +655,7 @@ h3 {
   font-size: 14px;
   line-height: 20px;
   color: #222222;
+  cursor: pointer;
 }
 
 .active-btn {
@@ -620,6 +702,7 @@ h3 {
   font-size: 16px;
   line-height: 27px;
   margin-right: 8px;
+  cursor: pointer;
 }
 
 .card-btn {
@@ -631,6 +714,7 @@ h3 {
   text-align: center;
   letter-spacing: 0.36px;
   color: #000000;
+  cursor: pointer;
 }
 
 .order__container {
@@ -720,8 +804,8 @@ h3 {
   background: #35B8BE;
   border-radius: 6px;
   color: #fff;
-  cursor: pointer;
 }
 .button:hover {
   background: rgba(76, 163, 240, 0.9725490196);
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

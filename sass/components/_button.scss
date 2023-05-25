@@ -3,10 +3,11 @@
     background: $primary-blue;
     border-radius: 6px;
     color: #fff;
-    cursor: pointer;
-
+    
     &:hover {
         background: #4ca3f0f8;
+        cursor: pointer;
+        
     }
 }
 
